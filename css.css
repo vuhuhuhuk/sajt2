@@ -1,0 +1,38 @@
+body {
+    margin: 25px;
+    background-color: rgb(79, 135, 255);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(136, 136, 136);
+  }
+
+  /* Applies to all elements with <... class="someclass"> specified. */
+  .klasa {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); }
+  
+  /* Applies to the element with <... id="someid"> specified. */
+  #naslov_id {
+    background-color: rgb(136, 136, 136);
+    color: rgb(255, 255, 255); }
